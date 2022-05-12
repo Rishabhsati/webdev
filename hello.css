@@ -130,6 +130,7 @@ a{
     color: aliceblue;
 }
 a:hover {
+    
     color: rgb(103, 64, 243);
   }
 
