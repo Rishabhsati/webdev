@@ -1,40 +1,66 @@
-#nav{
+body{
+    background: #16161a;
+    margin: 0px;
+}
+nav{
     margin: 0;
-    display:flex;
     font-size: 25px;
     font-weight:bold;
     font-family:sans-serif;
     color: aliceblue;
-    justify-content:space-evenly;
     background: rgba(245, 245, 245, 0.062);
-    padding: 20px ;
 }
-#nav div{
-    margin-right: 15px;
-    justify-content: space-between;
-    align-items: flex-end;
-
+#navbar{
+    display:flex;
+    padding: 10px ;
+    margin-right: 10%;
+    justify-content: end;
+}    
+#navbar div{
+    margin-left: 5%;
 }
-#nav div:hover{
+#navbar div:hover{
     justify-content: space-between;
     align-items: flex-end;
     color: #45f8b0;
 }
-
-h1{
+#name h1{
     margin-left: 15px;
     font-family:monospace;
     font-size: 39px;
     font-weight: 900;
 }
-h1:hover{
+#name h1:hover{
     color: #f8a745;
     margin-left: 15px;
     font-family:monospace;
     font-size: 39px;
     font-weight: 900;
 }
-h3{
+#profile{
+    color: #7f5af0;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+#name h4{
+    margin-left: 50px;
+    font-family:monospace;
+    font-size: 20px;
+}
+#name h4:hover{
+    color: #f8a745;
+    margin-left: 50px;
+    font-family:monospace;
+    font-size: 20px;
+}
+#profile img{
+    border-radius: 50%;
+    width: 200px;  
+    height: 190px;
+}
+#about h3{
     display:inline-block;
     color: #7f5af0;
     margin-left: 45px;
@@ -43,7 +69,7 @@ h3{
     font-family:monospace;
     font-size: 35px;
 }
-h3:hover{
+#about h3:hover{
     color: #f8a745;
     margin-left: 45px;
     margin-top: 30px;
@@ -51,86 +77,85 @@ h3:hover{
     font-family:monospace;
     font-size: 35px;
 }
-p{
+#about p{
     margin-left: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     line-height: 2em;
     color: rgb(255, 255, 255);
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
-body{
-    background: #16161a;
-    margin: 0px;
-}
-.skill{
-    font-size: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-    font-weight: bold;
-}
-h5{
-    display: inline-block;
-    margin-left: 50px;
-    font-family:monospace;
-    font-size: 20px;
-}
-.pro{
-    font-size: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: aliceblue;
-    font-weight: bold;
-}
-span{
-    font-size: 30px;
-    font-weight:bold;
-}
-#flex1{
-    color: #7f5af0;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    margin-top: 15px;
-}
-img{
-    border-radius: 50%;
-    width: 200px;  
-    height: 190px;
-}
-h4{
-    margin-left: 50px;
-    font-family:monospace;
-    font-size: 20px;
-}
-h4:hover{
-    color: #f8a745;
-    margin-left: 50px;
-    font-family:monospace;
-    font-size: 20px;
-}
-#con>h6{
-    display: inline-block;
-    font-family: sans-serif;
-    margin-right: 5px ;
-}
-#con{
-    margin-left: 55px;
-    margin-top: px;
-    font-size: 25px;
-    color:aliceblue;
-    /* display: inline-block; */
-}
-ul{
-    margin-left: 15px;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: aliceblue;
-}
-a:hover {
-    
-    color: rgb(103, 64, 243);
+section h2{
+      font-size: 25px;
+      color: #7f5af0;
+      font-family: sans-serif;
+      margin: 4px 20px;
+      padding: 10px;
+      text-decoration: 4px underline white;
   }
-
+  section h2:hover{
+      color: #ef9629;
+      font-style: italic;
+  }
+#skills{
+    padding: 5px;
+    background: rgba(245, 245, 245, 0.062);
+    text-align: center;
+}
+#skills div{
+    color: aliceblue;
+    margin: 25px;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+#projects {
+    margin: 35px;
+}
+#projects div{
+    margin: 25px 50px;
+    color: aliceblue;
+    font-size: larger;
+    font-family: sans-serif;
+    display: grid;
+    width: 50%;
+    padding: 15px; 
+    border: 2px solid ; 
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(115, 240, 43);
+}
+#socials h2{
+    margin: 5px 55px;
+    /* background: rgba(245, 245, 245, 0.062); */
+}
+#socials div{
+    margin: 5px 80px 10px ;
+    font-size: larger;
+    padding: 10px 0 15px;
+}
+footer {
+    margin: 0px;
+    background:rgba(245, 245, 245, 0.062) ;
+}
+#contact h3{
+    font-size: x-large;
+    color: white;
+    font-family:sans-serif;
+    margin: 0% 50px;
+    padding: 15px ;
+}
+#contact div{
+    color: aliceblue;
+    font: 15px sans-serif ;
+    margin: 0 70px ;
+    padding: 10px;
+}
