@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    background-color: #7f5af0;
+}
+#name h1{
+    margin-left: 15px;
+    font-family:monospace;
+    font-size: 45px;
+    font-weight: 900;
+}
+#name h1:hover{
+    color: #00aaf3;
+    margin-left: 15px;
+    font-family:monospace;
+    font-weight: 900;
+}
+#profile{
+    color: #eda034;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+#name h4{
+    margin-left: 55px;
+    font-family:monospace;
+    font-size: 20px;
+}
+#name h4:hover{
+    color: #00aaf3;
+    font-family:monospace;
+    font-size: 20px;
+}
+#profile img{
+    border-radius: 50%;
+    width: 200px;  
+    height: 190px;
+}
+#about{
+    padding: 5px;
+    background-color: #8de2ba;
+    margin: 0%;
+}
+#about h3{
+    display:inline-block;
+    color: #7f5af0;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    font-family:monospace;
+    font-size: 40px;
+}
+#about h3:hover{
+    color: #f3007e;
+}
+#about p{
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 2em;
+    color: rgb(67, 64, 64);
+    font-weight: bold; 
+}
+#contact h3{
+    font-size: 30px;
+    color: white;
+    font-family:sans-serif;
+    margin: 0% 50px;
+    padding: 15px ;
+}
+#contact div{
+    color: aliceblue;
+    font: 20px sans-serif ;
+    margin: 0 70px ;
+    padding: 10px;
+}
