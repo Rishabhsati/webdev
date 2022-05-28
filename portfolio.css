@@ -38,6 +38,7 @@ nav{
     display:flex;
     justify-content:space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 #name h4{
     margin-left: 50px;
